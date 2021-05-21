@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript 5</title>
+    </head>
+
+    <body>
+
+        <script>
+
+            // 비교 연산자
+
+            var a = 100;
+            var b = 200;
+            // 변수명 a에 100을 대입, 변수명 b에 200을 대입.
+
+            console.log( a < b);
+            // 비교 연산자로 a가 b보다 작으면 true, 아니면 false 출력.
+            // a가 b보다 작으므로 true가 출력.
+
+            console.log( a >= b );
+            // a가 b보다 크거나 같다면 true, 아니면 false 출력.
+            // false 출력.
+
+            console.log( a == b);
+            // a와 b가 같다면 true, 아니면 false 출력.
+            // = 하나만 넣는다면 b의 값을 a에 대입하게 된다.
+            // false 출력.
+
+            console.log( a != b);
+            // a와 b가 같지 않다면 true, 아니면 false 출력.
+            // 같지 않다는 것을 표기할 때는 !를 사용.
+            // true 출력.
+
+            var c = 100;
+            var d = '100';
+            // 변수명 c에는 숫자 100을 대입, 변수명 d에는 글자 100을 대입.
+
+            console.log( c == d );
+            // c와 d가 같다면 true 출력, 아니면 false 출력.
+            // 숫자형 c와 문자형 d는 값이 다르지만 자동으로 문자형 d를 숫자형으로 변환하여 true가 출력.
+
+            console.log( c === d );
+            // =를 더 붙이면 엄격하게 처리한다. 즉 데이터 타입까지 확인.
+            // 결과 값은 false.
+
+            console.log( c !== d);
+            // 같지 않다는 것을 더 정확하게 확인하는 방법은 !==.
+            // 결과 값은 true.
+
+
+
+
+
+
+        </script>
+
+    </body>
+
+</html>
